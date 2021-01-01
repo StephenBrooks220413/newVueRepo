@@ -2,7 +2,7 @@ import { register } from 'register-service-worker';
 <template>
   <div class="container">
     <div class="jumbotron">
-      <h1>About Page</h1>
+      <h1>Trends Page</h1>
     </div>
     <div class="social-media">
       <i class="fab fa-twitter"></i>
