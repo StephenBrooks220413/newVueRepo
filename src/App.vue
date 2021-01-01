@@ -74,6 +74,18 @@
                   >Github</a
                 >
               </li>
+              <span class="icons">
+                <li>
+                  <a href="mailto:krammer439298@gmail.com">
+                    <i class="nav-item far fa-envelope"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:555-555-5555">
+                    <i class="nav-item fas fa-mobile-alt"></i>
+                  </a>
+                </li>
+              </span>
             </ul>
             <!-- Left links -->
           </div>
@@ -109,5 +121,18 @@ i {
       color: #42b983;
     }
   }
+}
+.icons {
+  display: flex;
+  float: right !important;
+  letter-spacing: 11px;
+  padding-top: 3px;
+  padding-left: 60px;
+  font-size: 21px;
+  color: blue !important;
+}
+.icons a {
+  text-decoration: none !important;
+  color: blue !important;
 }
 </style>
