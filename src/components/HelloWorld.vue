@@ -9,15 +9,36 @@
       <i class="fab fa-github"></i>
     </div>
     <br /><br /><br /><br />
-    <div class="main-img">
-      <h1>
-        <a
-          href="https://mdbootstrap.com/docs/standard/content-styles/images/"
-          target="_blank"
-          >WebSite</a
-        >
-      </h1>
-      <img class="img-fluid" src="/assets/mdb.jpeg" width="100%" alt="" />
+    <div class="row">
+      <div class="col-md-6">
+        <div class="main-img">
+          <h1 class="display-4 text-center">Using MDB5 for layouts</h1>
+          <br /><br /><br />
+          <h1>
+            <a
+              href="https://mdbootstrap.com/docs/standard/content-styles/images/"
+              target="_blank"
+              >WebSite</a
+            >
+          </h1>
+          <img class="img-fluid" src="../assets/mdb.jpeg" width="100%" alt="" />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="main-img">
+          <h1 class="display-4 text-center">Using VUEX framework</h1>
+          <br /><br /><br />
+          <h1>
+            <a href="https://vuex.vuejs.org/" target="_blank">WebSite</a>
+          </h1>
+          <img
+            class="img-fluid"
+            src="../assets/vuex.jpeg"
+            width="100%"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
   </div>
 </template>
