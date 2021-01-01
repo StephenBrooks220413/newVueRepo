@@ -8,6 +8,17 @@
       <i class="fab fa-facebook"></i>
       <i class="fab fa-github"></i>
     </div>
+    <br /><br /><br /><br />
+    <div class="main-img">
+      <h1>
+        <a
+          href="https://mdbootstrap.com/docs/standard/content-styles/images/"
+          target="_blank"
+          >WebSite</a
+        >
+      </h1>
+      <img class="img-fluid" src="/assets/mdb.jpeg" width="100%" alt="" />
+    </div>
   </div>
 </template>
 
@@ -41,5 +52,11 @@ export default class HelloWorld extends Vue {
   height: 700px;
   padding-bottom: auto;
   width: 100%;
+}
+.main-img {
+  max-width: 700px;
+  max-height: 610px;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
