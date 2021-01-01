@@ -119,11 +119,48 @@
       </div>
     </div>
     <br /><br /><br />
-    <div class="jumbotron content-3">
-      <h1 class="display-4">
-        Peak hours are always stable and off times are still ongoing.
-      </h1>
-    </div>
+    <form class="container">
+      <h1 class="text-center">Contact Us</h1>
+      <h5>
+        555-555-5555 <br />
+        Menphis, TN
+      </h5>
+      <br /><br />
+      <!-- Name input -->
+      <div class="form-outline mb-4">
+        <input type="text" id="form4Example1" class="form-control" />
+        <label class="form-label" for="form4Example1">Name</label>
+      </div>
+
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="form4Example2" class="form-control" />
+        <label class="form-label" for="form4Example2">Email address</label>
+      </div>
+
+      <!-- Message input -->
+      <div class="form-outline mb-4">
+        <textarea class="form-control" id="form4Example3" rows="5"></textarea>
+        <label class="form-label" for="form4Example3">Message</label>
+      </div>
+
+      <!-- Checkbox -->
+      <div class="form-check d-flex justify-content-center mb-4">
+        <input
+          class="form-check-input me-2"
+          type="checkbox"
+          value=""
+          id="form4Example4"
+          checked
+        />
+        <label class="form-check-label" for="form4Example4">
+          Send me a copy of this message
+        </label>
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+    </form>
   </div>
 </template>
 
@@ -213,5 +250,18 @@ export default class HelloWorld extends Vue {
 }
 img {
   border-radius: 50% !important;
+}
+form {
+  margin-top: 70px;
+  margin-bottom: 190px;
+}
+input {
+  background-color: rgb(233, 229, 229) !important;
+}
+textarea {
+  background-color: rgb(233, 229, 229) !important;
+}
+button {
+  width: 210px;
 }
 </style>
